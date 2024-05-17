@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: linux-containers-aks
 
 steps:
 - task: Maven@3
