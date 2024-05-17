@@ -29,8 +29,7 @@ stages:
 
     steps:
     - script: |
-        echo "Hello from inside Docker Container: $HOSTNAME"
-        printenv
+        echo "Hello from inside Docker Container: $HOSTNAME" > /tmp/test
 
   # - job: buildApp02
   #   steps:
